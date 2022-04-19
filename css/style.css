@@ -1,0 +1,66 @@
+*{ margin: 0;
+   padding: 0;
+   outline: 0;
+   font-size: 16px;
+   font-family:cursive;
+   
+ }
+ img{
+	 vertical-align: middle;
+ }
+ a{
+	 text-decoration:none;
+ }
+ ol,ul{
+	 list-style: none;
+ }
+ /*common css end*/
+ /*position part start*/
+ .main{
+	 width: 400px;
+	 height: 400px;
+	 background: #4cd137;
+	 position: relative;
+	 margin: 50px auto;
+	 text-align: center;
+	  color: red;
+	  font-size: 20px;
+	  font-style: italic;
+	 
+ }
+ .one{
+	 width: 146px;
+	 height: 150px;
+	 background:#f368e0;
+	 position: absolute;
+	 top:0;
+ }
+ .tow{
+	 width: 150px;
+	 height: 150px;
+	 background:#f368e0;
+	 position: absolute;
+	 right: 0;
+	 bottom: 0;
+	
+ }
+ .three{
+	  width: 150px;
+	 height: 150px;
+	 background:blue;
+	 position: absolute;
+	 text-align: center;
+	 left: 0;
+	 bottom: 0;
+ }
+ .four{
+	  width: 145px;
+	 height: 150px;
+	 background:blue;
+	 position: absolute;
+	 text-align:center;
+	 top: 0;
+	 right: 0;
+	
+ }
+ 
